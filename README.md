@@ -23,7 +23,7 @@ For the demo to work, the user needs to have **1.** an [Earth Engine Project ID]
 
 These two items needs to be saved as [Colab Secrets](https://colab.sandbox.google.com/github/google-gemini/cookbook/blob/main/quickstarts/Authentication.ipynb)
 
-<img src="https://github.com/jeffgillan/earthengine-community/blob/master/experimental/functionsmith/colab_secrets.png" width=600>
+<img src="https://github.com/jeffgillan/earthengine-community/blob/master/experimental/functionsmith/colab_secrets.png" width=400>
 
 <br/>
 <br/>
