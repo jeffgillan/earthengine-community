@@ -16,7 +16,10 @@ limitations under the License.
 
 # Agentic Analysis in Google Earth Engine
 
-I have forked the earthengine-community repository to demonstrate the use of coding agents in Google Earth Engine. The directory for using agents is [/experimental/functionsmith](https://github.com/jeffgillan/earthengine-community/tree/master/experimental/functionsmith). To have a play with agentic EE, check out this demo jupyter notebook
+I have forked the earthengine-community repository to demonstrate the use of coding agents in Google Earth Engine, developed by Simon Ilyuschenko. The demo shows how you can interact with the GEE data catalog and ask the agent to perform any number of spatial or image analysis tasks. This demo uses the python API, not the GUI javascript. The backend intelligence is powered by Gemini, but you could use other LLM APIs such as OpenAI or Anthropic. 
+
+
+The directory for EE agent stuff is [/experimental/functionsmith](https://github.com/jeffgillan/earthengine-community/tree/master/experimental/functionsmith). To have a play with agentic EE, check out this demo jupyter notebook
 [![Open Colab Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jeffgillan/earthengine-community/blob/master/experimental/functionsmith/ee_companion.ipynb). 
 
 For the demo to work, the user needs to have **1.** an [Earth Engine Project ID](https://code.earthengine.google.com/register), and **2.** a [Gemini API Key](https://ai.google.dev/gemini-api/docs/api-key). Both of these items are free to obtain. 
