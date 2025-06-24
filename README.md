@@ -16,10 +16,14 @@ limitations under the License.
 
 # Agentic Analysis in Google Earth Engine
 
-I have forked the earthengine-community repository to demonstrate the use of coding agents in Google Earth Engine. The directory for using agents is [here](https://github.com/jeffgillan/earthengine-community/tree/master/experimental/functionsmith). To have a play with agentic EE, check out this demo jupyter notebook
+I have forked the earthengine-community repository to demonstrate the use of coding agents in Google Earth Engine. The directory for using agents is [/experimental/functionsmith](https://github.com/jeffgillan/earthengine-community/tree/master/experimental/functionsmith). To have a play with agentic EE, check out this demo jupyter notebook
 [![Open Colab Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jeffgillan/earthengine-community/blob/master/experimental/functionsmith/ee_companion.ipynb). 
 
-For the demo to work, the user needs to have **1.** an Earth Engine Project ID, and **2.** a Gemini API Key.  
+For the demo to work, the user needs to have **1.** an [Earth Engine Project ID](https://code.earthengine.google.com/register), and **2.** a [Gemini API Key](https://ai.google.dev/gemini-api/docs/api-key). Both of these items are free to obtain. 
+
+These two items needs to be saved as [Colab Secrets](https://colab.sandbox.google.com/github/google-gemini/cookbook/blob/main/quickstarts/Authentication.ipynb)
+
+<img src="https://github.com/jeffgillan/earthengine-community/blob/master/experimental/functionsmith/colab_secrets.png" width=600>
 
 <br/>
 <br/>
